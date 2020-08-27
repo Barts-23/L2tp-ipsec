@@ -44,7 +44,7 @@ VPN_PASSWORD=$2
 
 if [ -z "$VPN_USER" ] || [ -z "$VPN_PASSWORD" ]; then
 cat 1>&2 <<EOF
-Usage: sudo sh $0 'Barts' 'Barts'
+Usage: sudo sh $0 'username_to_add' 'password_to_add'
 EOF
   exit 1
 fi
