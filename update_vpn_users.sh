@@ -123,20 +123,6 @@ Write these down. You'll need them to connect!
 
 EOF
 
-printf "Do you want to continue? [y/N] "
-read -r response
-case $response in
-  [yY][eE][sS]|[yY])
-    echo
-    echo "Updating VPN users..."
-    echo
-    ;;
-  *)
-    echo "Abort. No changes were made."
-    exit 1
-    ;;
-esac
-
 # Backup and remove config files
 conf_bk "/etc/ppp/chap-secrets"
 conf_bk "/etc/ipsec.d/passwd"
