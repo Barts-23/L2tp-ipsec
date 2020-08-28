@@ -17,8 +17,8 @@
 # - All values MUST be placed inside 'single quotes'
 # - DO NOT use these special characters within values: \ " '
 
-YOUR_USERNAMES=''
-YOUR_PASSWORDS=''
+YOUR_USERNAMES='bartx'
+YOUR_PASSWORDS='bartx'
 
 # Example:
 # YOUR_USERNAMES='username1 username2'
